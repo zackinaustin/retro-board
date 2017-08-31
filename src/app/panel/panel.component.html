@@ -1,0 +1,10 @@
+<div class="header">
+  <h5>{{ title }}</h5>
+</div>
+<div class="panel-list-container">
+  <ul>
+    <li *ngFor="let comment of comments">
+      <retro-panel-item [comment]="comment"></retro-panel-item>
+    </li>
+  </ul>
+</div>
